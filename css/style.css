@@ -1,0 +1,22 @@
+*{
+    padding: 4px;
+    margin:0px;
+    box-sizing: border-box;
+}
+.links{
+    margin-left:1170px;
+}
+.intro{
+    margin-top: 300px;
+    text-align: center;
+    margin-bottom: 300px;
+}
+.footer{
+    text-align: center;
+}
+.first{
+    background-image: url(../images/pizza\ 2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
