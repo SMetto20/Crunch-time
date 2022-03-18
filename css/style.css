@@ -66,3 +66,25 @@
     margin-top:90px;
     margin-left: 70px;;
 }
+/* .container-2{
+display: flex;
+margin-top: 60px;
+} */
+.hawaian-image{
+    width: 350px;
+    height:250px;
+    margin-left: 270px;
+    padding: 5px;
+
+}
+.hawaian-text{
+    text-align: center;
+    margin-top:90px;
+    margin-left: 70px;;
+
+}
+.order-now{
+    position:absolute;
+    margin-top: 200px;
+    margin-left: 950px;
+}
