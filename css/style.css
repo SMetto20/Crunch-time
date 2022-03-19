@@ -56,14 +56,14 @@
     margin-top: 120px;
 }
 .magherita-image{
-    width: 350px;
-    height:250px;
-    margin-left: 270px;
+    width: 400px;
+    height:350px;
+    margin-left: 250px;
     padding: 5px;
+    margin-top: 15px;
 }
 .magherita-text{
     text-align: center;
-    margin-top:90px;
     margin-left: 70px;;
 }
 /* .container-2{
@@ -71,29 +71,27 @@ display: flex;
 margin-top: 60px;
 } */
 .hawaian-image{
-    width: 350px;
-    height:250px;
-    margin-left: 270px;
+    width: 400px;
+    height:350px;
+    margin-left: 250px;
     padding: 5px;
+    margin-top:120px;
 
 }
 .hawaian-text{
     text-align: center;
-    margin-top:90px;
+    margin-top:100px;
     margin-left: 70px;;
 
 }
-.order-now{
-    position:absolute;
-    margin-top: 250px;
-    margin-left: 950px;
-}
+
 .nyamachoma-image{
 
-    width: 350px;
-    height:250px;
-    margin-left: 270px;
+    width: 400px;
+    height:400px;
+    margin-left: 250px;
     padding: 5px;
+    margin-top: 130px;
 }
 .nyamachoma-text{
     text-align: center;
@@ -101,8 +99,49 @@ margin-top: 60px;
     margin-left: 70px;;
 
 }
-.prices{
+.order-marghe{
+    position:absolute;
+    margin-top: 400px;
+    margin-left: 970px;
+}
+.order-hawai{
+    position:absolute;
+    margin-top: 500px;
+    margin-left: 970px;
+
+
+}
+.order-nyama{
+    position:absolute;
+    margin-top: 550px;
+    margin-left: 970px;
+
+}
+.order-veggie{
+    position:absolute;
+    margin-top: 520px;
+    margin-left: 970px;
+ 
+}
+.prices-marghe{
     position: absolute;
-    margin-top: 160px;
+    margin-top: 280px;
     margin-left: 950px
+}
+.prices-hawai{
+    position: absolute;
+    margin-top: 380px;
+    margin-left: 950px
+
+}
+
+.prices-nyama{
+    position: absolute;
+    margin-top: 430px;
+    margin-left: 950px
+}
+.prices-veggie{
+    position: absolute;
+    margin-top: 400px;
+    margin-left: 950px 
 }
