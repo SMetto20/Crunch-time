@@ -32,7 +32,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     height: 960px;
-    opacity: .90;
+    opacity: .98;
 }
 .discover{
     margin-top: 70px;
@@ -85,6 +85,24 @@ margin-top: 60px;
 }
 .order-now{
     position:absolute;
-    margin-top: 200px;
+    margin-top: 250px;
     margin-left: 950px;
+}
+.nyamachoma-image{
+
+    width: 350px;
+    height:250px;
+    margin-left: 270px;
+    padding: 5px;
+}
+.nyamachoma-text{
+    text-align: center;
+    margin-top:90px;
+    margin-left: 70px;;
+
+}
+.prices{
+    position: absolute;
+    margin-top: 160px;
+    margin-left: 950px
 }
