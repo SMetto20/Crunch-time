@@ -11,6 +11,7 @@ var nyamachoma = document.getElementById("nyamachoma")
 var vegeterian = document.getElementById("veggie")
 var size =document.getElementById("size")
 var crust =document.getElementById("crust")
+var toppings = document.getElementById("toppings")
 var submit=document.getElementById("submit")
 
 margherita.addEventListener("click", function () {
@@ -32,15 +33,10 @@ vegeterian.addEventListener("click", function () {
 form.addEventListener("submit",function(e){
     e.preventDefault();
     priceCheck()
+    // console.log (large)
+
 })
+// var numQuantity = parseInt(quantity.value)
 
-function priceCheck(){
-    if(size.value =="large" && crust.value =="thick"){
-        console.log(950+8)
-       }
-}
 
-// let pizzamarghe1 ={
-//     pizazsize:size[1]
-    
-// }
+// size.value =="large" && crust.value =="thick"&& toppings.value=="extra-cheese"

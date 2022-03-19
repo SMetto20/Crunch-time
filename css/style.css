@@ -5,26 +5,45 @@
     margin-bottom: 0%;
     font-family: sans-serif;
 }
+.black{
+    background-color: rgb(22, 21, 21);
+    height: 50px;
+}
+.crunch{
+    color: white;
+    margin-left: 100px;
+    position:absolute;
+    margin-top: 12px;
+}
 .links{
-    margin-left:1190px;
+    margin-left:1250px;
     color: red;
+    position:absolute;
+    margin-top: 14px;
     
 }
+a{
+    color: crimson;
+}
 .intro{
-    margin-top: 340px;
+    position: absolute;
+    margin-top: 350px;
     text-align: center;
     margin-bottom: 270px;
     color: white;
     font-weight: bold;
+    margin-left: 380px;
 }
 .describe{
     font-size:20px;
 }
 .footer{
+    position: absolute;
     text-align: center;
-    color:black;
+    color:white;
     font-weight: bold;
-    margin-left: 30px;
+    margin-left: 750px;
+    margin-top: 20px;
 }
 .first{
     background-image: url(../images/pizza3.jpg);
@@ -33,6 +52,7 @@
     background-size: cover;
     height: 960px;
     opacity: .98;
+    margin-top:
 }
 .discover{
     margin-top: 70px;
@@ -53,7 +73,7 @@
 
 .choose{
     text-align: center;
-    margin-top: 120px;
+    color:white;
 }
 .magherita-image{
     width: 400px;
@@ -65,6 +85,7 @@
 .magherita-text{
     text-align: center;
     margin-left: 70px;;
+    color: white;
 }
 /* .container-2{
 display: flex;
@@ -82,6 +103,7 @@ margin-top: 60px;
     text-align: center;
     margin-top:100px;
     margin-left: 70px;;
+    color: white;
 
 }
 
@@ -97,6 +119,7 @@ margin-top: 60px;
     text-align: center;
     margin-top:90px;
     margin-left: 70px;;
+    color: white;
 
 }
 .order-marghe{
@@ -126,22 +149,66 @@ margin-top: 60px;
 .prices-marghe{
     position: absolute;
     margin-top: 280px;
-    margin-left: 950px
+    margin-left: 950px;
+    color:white;
 }
 .prices-hawai{
     position: absolute;
     margin-top: 380px;
-    margin-left: 950px
+    margin-left: 950px;
+    color:white;
 
 }
 
 .prices-nyama{
     position: absolute;
     margin-top: 430px;
-    margin-left: 950px
+    margin-left: 950px;
+    color: white
 }
 .prices-veggie{
     position: absolute;
     margin-top: 400px;
     margin-left: 950px 
+}
+.delivery{
+    background-image: url(../images/delivery.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 960px;
+    opacity: .98;
+    margin-top:10px;
+
+}
+.menu{
+    background-image: url(../images/black2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1050px;
+    opacity: .98;
+    margin-top:
+}
+.menu-2{
+    background-image: url(../images/black2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1200px;
+    opacity: .98;
+}
+.black-menu{
+    background-color: rgb(22, 21, 21);
+    height: 50px;
+    margin-top:80px;
+
+}
+.footer-menu{
+    position: absolute;
+    text-align: center;
+    color:white;
+    font-weight: bold;
+    margin-left: 750px;
+    margin-top: 14px
 }
