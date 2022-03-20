@@ -395,7 +395,7 @@ margin-top: 60px;
 }
 .continue-1{
 
-margin-top: 280px;
+margin-top: 70px;
     margin-left: 20px;
     height: 40px;
     width:80px;
@@ -406,7 +406,7 @@ margin-top: 280px;
     font-weight: bold;
 }
 .back-1{
-    margin-left: 150px;
+    margin-left: 170px;
     height:40px;
     width:80px;
     background-color: red;
@@ -419,9 +419,43 @@ margin-top: 280px;
     font-size: 22px;
     margin-left: 170px;
     margin-top: 30px;
+    font-weight: bold;
 }
 .summary-display2{
     font-size: 22px;
     margin-left: 170px;
     margin-top: 30px;
+    font-weight: bold;
+    font-family: arial;
+}
+.delivery-heading{
+    position:absolute;
+    margin-top: 80px;
+    margin-left:500px;
+}
+.delivery-form{
+    position:absolute;
+    margin-top:280px ;
+    margin-left: 550px;
+}
+.delivery-text{
+    font-size: 35px;
+}
+.delivery-select{
+    margin-left: 110px;
+    height: 35px;
+    width: 80px;
+    background: none;
+}
+.checkout{
+    position: absolute;
+    margin-top: 80px;
+    margin-left: 180px;
+}
+.location{
+    height:30px;
+    background: none;
+}
+.enter-loc{
+    margin-left: 50px;
 }
