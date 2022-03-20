@@ -31,21 +31,21 @@
                 extra,</br></br> thin crust is 250ksh extra and gluten free crust is 450ksh extra.</br></br> futher more
                 you can incrase your delight by adding toppings that go for,</br></br>300 ksh for a large pizza, 200ksh
                 for medium and 100ksh for small.</p>
-            <!-- <form id="form" class="form">
+                <form id="form" class="form">
                 <h1 class="place">place your oder</h1>
                 <div class="choose-size">
                     <div class="form-1">
                         <label>choose your size</label>
-                        <select id="size" class="size-select">
-                            <option disabled hidden selected>size</opyion1>
+                        <select id="size" class="size-select" required>
+                            <option disabled hidden selected >size</option>
                             <option value="large">large</option>
-                            <option value="">Medium</option>
-                            <option value="3">small</option>
+                            <option value="medium">Medium</option>
+                            <option value="small">small</option>
                         </select></br>
                     </div>
                     <div class="quantity">
-                        <label id="quantity">quantity</label>
-                        <input class="quantity-select"></input></br>
+                        <label>quantity</label>
+                        <input id="quantity" class="quantity-select" required></input></br>
                     </div>
                     <label>Select your crust type</label>
                     <select id="crust" class="crust crust-select">
@@ -55,15 +55,26 @@
                         <option value="glutten">glutten free</option>
                     </select></br>
                     <label class="toppings">Which toppings would you like?</label>
-                    <select class="toppings-select">
+                    <select id ="toppings" class="toppings-select">
                         <option disabled hidden selected>Toppings</option>
-                        <option>Extra toppings</option>
-                        <option>Moderate</option>
-                        <option>Minimal</option>
+                        <option value="Extratopping">Extra toppings</option>
+                        <option value="Morderate">Moderate</option>
+                        <option value="Minimal">Minimal</option>
                     </select></br></br>
                     <button id="submit" type="submit" class="proceed">Proceed</button>
                 </div>
-            </form> -->
+            </form>
+            <div class="summary-1" id="summary-1">
+                <div class="header">
+                <h1 class="order-header">Order Summary</h1>
+                </div>
+                <div id="summary-display" class="summary-display">
+
+                </div>
+                <button class="back">back</button>
+                <button class="continue">Continue</button>
+                
+            </div>
             <ul class="prices-marghe">
 
                 <li>large @ 950ksh</li></br>
@@ -103,39 +114,50 @@
                 goes for 350ksh extra,</br></br> thin crust is 250ksh extra and gluten free crust is 450ksh
                 extra.</br></br> futher more you can incrase your delight by adding toppings that go for,</br></br>300
                 ksh for a large pizza, 200ksh for medium and 100ksh for small.</p>
-            <form id="form" class="form-2">
-                <h1 class="place">place your oder</h1>
-                <div class="choose-size">
-                    <div class="form-1">
-                        <label>choose your size</label>
-                        <select id="size" class="size-select">
-                            <option disabled hidden selected>size</opyion1>
-                            <option value="large">large</option>
-                            <option value="medium">Medium</option>
-                            <option value="small">small</option>
+                <form id="form2" class="form-2">
+                    <h1 class="place">place your oder</h1>
+                    <div class="choose-size">
+                        <div class="form-1">
+                            <label>choose your size</label>
+                            <select id="size2" class="size-select" required>
+                                <option disabled hidden selected >size</option>
+                                <option value="large">large</option>
+                                <option value="medium">Medium</option>
+                                <option value="small">small</option>
+                            </select></br>
+                        </div>
+                        <div class="quantity">
+                            <label>quantity</label>
+                            <input id="quantity2" class="quantity-select" required></input></br>
+                        </div>
+                        <label>Select your crust type</label>
+                        <select id="crust2" class="crust crust-select">
+                            <option disabled hidden selected>crust</option>
+                            <option value="thick">thick</option>
+                            <option value="thin">thin</option>
+                            <option value="glutten">glutten free</option>
                         </select></br>
+                        <label class="toppings">Which toppings would you like?</label>
+                        <select id ="toppings2" class="toppings-select">
+                            <option disabled hidden selected>Toppings</option>
+                            <option value="Extratopping">Extra toppings</option>
+                            <option value="Morderate">Moderate</option>
+                            <option value="Minimal">Minimal</option>
+                        </select></br></br>
+                        <button id="proceed" type="submit" class="proceed">Proceed</button>
                     </div>
-                    <div class="quantity">
-                        <label>quantity</label>
-                        <input id="quantity" class="quantity-select"></input></br>
+                </form>
+                <div class="summary-2" id="summary-2">
+                    <div class="header">
+                    <h1 class="order-header">Order Summary</h1>
                     </div>
-                    <label>Select your crust type</label>
-                    <select id="crust" class="crust crust-select">
-                        <option disabled hidden selected>crust</option>
-                        <option value="thick">thick</option>
-                        <option value="thin">thin</option>
-                        <option value="glutten">glutten free</option>
-                    </select></br>
-                    <label class="toppings">Which toppings would you like?</label>
-                    <select id ="toppings" class="toppings-select">
-                        <option disabled hidden selected>Toppings</option>
-                        <option value="Extratopping">Extra toppings</option>
-                        <option value="Morderate">Moderate</option>
-                        <option value="Minimal">Minimal</option>
-                    </select></br></br>
-                    <button id="submit" type="submit" class="proceed">Proceed</button>
+                    <div class="summary-display2" id="summary-display2">
+
+                    </div>
+                    <button class="back-1">back</button>
+                    <button class="continue-1">Continue</button>
+                    
                 </div>
-            </form>
             <ul class="prices-nyama">
                 <li>large @ 950ksh</li></br>
                 <li>medium@ 700ksh</li></br>
@@ -145,7 +167,7 @@
         </div>
         <div class="container-1">
             <img src="images/veggie.jpg" alt="vegeterian-pizza" class="hawaian-image">
-            <p class="hawaian-text"><strong>Vegeterian pizza</strong></br></br>This is a purely vegeterian pizza .
+            <p class="hawaian-text"><strong>Vegeterian pizza</strong></br></br> is a purely vegeterian pizza .
                 comprising of Mashrooms, Jalapendos,
                 Spinach</br></br> Tomato and olives for our none-meaty lovers out there.</br></br> We also have an
                 option to choose your type of crust.</br></br> Thick crust goes for 350ksh extra,</br></br> thin crust
