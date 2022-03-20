@@ -1,31 +1,36 @@
-*{
-    padding:0px;
-    margin:0px;
+* {
+    padding: 0px;
+    margin: 0px;
     box-sizing: border-box;
     margin-bottom: 0%;
     font-family: sans-serif;
 }
-.black{
+
+.black {
     background-color: rgb(22, 21, 21);
     height: 50px;
 }
-.crunch{
+
+.crunch {
     color: white;
     margin-left: 100px;
-    position:absolute;
+    position: absolute;
     margin-top: 12px;
 }
-.links{
-    margin-left:1250px;
+
+.links {
+    margin-left: 1250px;
     color: red;
-    position:absolute;
+    position: absolute;
     margin-top: 14px;
-    
+
 }
-a{
+
+a {
     color: crimson;
 }
-.intro{
+
+.intro {
     position: absolute;
     margin-top: 350px;
     text-align: center;
@@ -34,18 +39,21 @@ a{
     font-weight: bold;
     margin-left: 380px;
 }
-.describe{
-    font-size:20px;
+
+.describe {
+    font-size: 20px;
 }
-.footer{
+
+.footer {
     position: absolute;
     text-align: center;
-    color:white;
+    color: white;
     font-weight: bold;
     margin-left: 750px;
     margin-top: 20px;
 }
-.first{
+
+.first {
     background-image: url(../images/pizza3.jpg);
     background-position: center;
     background-repeat: no-repeat;
@@ -54,134 +62,153 @@ a{
     opacity: .98;
     margin-top:
 }
-.discover{
+
+.discover {
     margin-top: 70px;
     height: 50px;
     width: 100px;
     border: none;
-    background-color:crimson;
+    background-color: crimson;
     color: white;
     border-radius: 10px;
 }
-.container-1{
+
+.container-1 {
     /* border: 10px;
     padding:70px;
  */
- display: flex;
- margin-top: 60px;
+    display: flex;
+    margin-top: 60px;
 }
 
-.choose{
+.choose {
     text-align: center;
-    color:white;
+    color: white;
 }
-.magherita-image{
+
+.magherita-image {
     width: 400px;
-    height:350px;
+    height: 350px;
     margin-left: 250px;
     padding: 5px;
     margin-top: 15px;
 }
-.magherita-text{
+
+.magherita-text {
     text-align: center;
-    margin-left: 70px;;
+    margin-left: 70px;
+    ;
     color: white;
 }
+
 /* .container-2{
 display: flex;
 margin-top: 60px;
 } */
-.hawaian-image{
+.hawaian-image {
     width: 400px;
-    height:350px;
+    height: 350px;
     margin-left: 250px;
     padding: 5px;
-    margin-top:120px;
+    margin-top: 120px;
 
 }
-.hawaian-text{
+
+.hawaian-text {
     text-align: center;
-    margin-top:100px;
-    margin-left: 70px;;
+    margin-top: 100px;
+    margin-left: 70px;
+    ;
     color: white;
 
 }
 
-.nyamachoma-image{
+.nyamachoma-image {
 
     width: 400px;
-    height:400px;
+    height: 400px;
     margin-left: 250px;
     padding: 5px;
     margin-top: 130px;
 }
-.nyamachoma-text{
+
+.nyamachoma-text {
     text-align: center;
-    margin-top:90px;
-    margin-left: 70px;;
+    margin-top: 90px;
+    margin-left: 70px;
+    ;
     color: white;
 
 }
-.order-marghe{
-    position:absolute;
+
+.order-marghe {
+    position: absolute;
     margin-top: 400px;
     margin-left: 970px;
 }
-.order-hawai{
-    position:absolute;
+
+.order-hawai {
+    position: absolute;
     margin-top: 500px;
     margin-left: 970px;
 
 
 }
-.order-nyama{
-    position:absolute;
+
+.order-nyama {
+    position: absolute;
     margin-top: 550px;
     margin-left: 970px;
 
 }
-.order-veggie{
-    position:absolute;
+
+.order-veggie {
+    position: absolute;
     margin-top: 520px;
     margin-left: 970px;
- 
+
 }
-.prices-marghe{
+
+.prices-marghe {
     position: absolute;
     margin-top: 280px;
     margin-left: 950px;
-    color:white;
+    color: white;
 }
-.prices-hawai{
+
+.prices-hawai {
     position: absolute;
     margin-top: 380px;
     margin-left: 950px;
-    color:white;
+    color: white;
 
 }
 
-.prices-nyama{
+.prices-nyama {
     position: absolute;
     margin-top: 430px;
     margin-left: 950px;
     color: white
 }
-.prices-veggie{
+
+.prices-veggie {
     position: absolute;
     margin-top: 400px;
-    margin-left: 950px 
+    margin-left: 950px
 }
-.delivery{
+
+.delivery {
     background-image: url(../images/delivery.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     height: 960px;
     opacity: .98;
-    margin-top:10px;
+    margin-top: 10px;
 
 }
-.menu{
+
+.menu {
     background-image: url(../images/black2.jpg);
     background-position: center;
     background-repeat: no-repeat;
@@ -190,25 +217,110 @@ margin-top: 60px;
     opacity: .98;
     margin-top:
 }
-.menu-2{
+
+.menu-2 {
     background-image: url(../images/black2.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     height: 1200px;
     opacity: .98;
+    overflow: hidden;
 }
-.black-menu{
+
+.black-menu {
     background-color: rgb(22, 21, 21);
     height: 50px;
-    margin-top:80px;
+    margin-top: 80px;
 
 }
-.footer-menu{
+
+.footer-menu {
     position: absolute;
     text-align: center;
-    color:white;
+    color: white;
     font-weight: bold;
     margin-left: 750px;
     margin-top: 14px
+}
+
+.form {
+    border: 5px;
+    background-color: rgb(253, 252, 252);
+    position: absolute;
+    margin-top: 180px;
+    margin-left: 550px;
+    height: 430px;
+    width: 500px;
+    opacity: 0.95;
+    display: none;
+
+}
+
+.form-2 {
+    border: 5px;
+    background-color: rgb(253, 252, 252);
+    position: absolute;
+    margin-top: 350px;
+    margin-left: 550px;
+    height: 430px;
+    width: 500px;
+    opacity: 0.95;
+}
+
+.choose-size {
+    margin-top: 40px;
+    margin-left: 20px;
+    font-size: 22px;
+}
+
+.form-1 {
+    margin-bottom: 30px;
+}
+
+.quantity {
+    margin-bottom: 30px;
+}
+
+.crust {
+    margin-bottom: 30px;
+}
+
+.place {
+    text-align: center;
+    margin-top: 0px;
+    background-color: red;
+    overflow-y: hidden;
+    height: 70px;
+    color: white;
+}
+
+.proceed {
+    margin-left: 200px;
+    margin-top: 20px;
+    height: 40px;
+    width: 90px;
+    border-radius: 8px;
+    background-color: green;
+    color: white;
+    border: none;
+}
+
+.size-select {
+    height: 30px;
+    width: 90px;
+}
+
+.quantity-select {
+    height: 25px;
+}
+
+.crust-select {
+    height: 30px;
+    width: 90px;
+}
+
+.toppings-select {
+    height: 30px;
+    width: 90px;
 }
