@@ -44,10 +44,11 @@ $(".order-marghe").click(function () {
             crustPrice()
             toppingPrice()
             Total()
+            deliveryAnounce()
             $(".summary-1").show(function(e){
                 continue2.addEventListener("click", function (e) {
                     e.preventDefault();
-                    document.location.href ="delivery.html"
+                    document.location.href ="end.html"
                     
                 })
                 back.addEventListener("click", function (e) {
@@ -83,11 +84,12 @@ $(".order-hawai").click(function () {
             sizePrice()
             crustPrice()
             toppingPrice()
+            deliveryAnounce()
             Total()
             $(".summary-1").show(function(e){
                 continue2.addEventListener("click", function (e) {
                     e.preventDefault();
-                    document.location.href ="delivery.html"
+                    document.location.href ="end.html"
                     
                 })
                 back.addEventListener("click", function (e) {
@@ -124,18 +126,19 @@ $(".order-nyama").click(function () {
             sizePrice2()
             crustPrice2()
             toppingPrice2()
+            deliveryAnounce()
             Total2()
             $(".summary-2").show(function (e) {
                 continue1.addEventListener("click", function (e) {
                     e.preventDefault();
-                    document.location.href ="delivery.html"
+                    document.location.href ="end.html"
                 })
                 back1.addEventListener("click", function (e) {
                     e.preventDefault();
                     $(".summary-2").show(function(e){
                         continue2.addEventListener("click", function (e) {
                             e.preventDefault();
-                            document.location.href ="delivery.html"
+                            document.location.href ="end.html"
                             
                         })
                         back.addEventListener("click", function (e) {
@@ -177,11 +180,12 @@ $(".order-nyama").click(function () {
                 sizePrice2()
                 crustPrice2()
                 toppingPrice2()
+                deliveryAnounce2()
                 Total2()
                 $(".summary-2").show(function(e){
                     continue2.addEventListener("click", function (e) {
                         e.preventDefault();
-                        document.location.href ="delivery.html"
+                        document.location.href ="end.html"
                         
                     })
                     back1.addEventListener("click", function (e) {
@@ -298,17 +302,30 @@ function toppingPrice2() {
 }
 function deliveryCheck(){
     if(delivery.value==='yes'){
-     return parseInt (deliveryPrice)+
-     alert("your meal will be delivered")
+     return parseInt (deliveryPrice)
+    
 
     }else{
         return 0
     }
 }
+function deliveryAnounce(){
+    if(delivery.value==='yes'){
+    alert("your meal will be deliverd")
+} else{
+    alert ('wait 15 minutes to pick your meal')
+}}
+function deliveryAnounce2(){
+    
+    if(delivery2.value==='yes'){
+        alert("your meal will be deliverd")
+    } else{
+        alert ('wait 15 minutes to pick your meal')
+}}
 function deliveryCheck2(){
     if(delivery2.value=== "yes"){
-   return parseInt(deliveryPrice)+
-   alert("your meal will be deliverd")
+   return parseInt(deliveryPrice)
+
     }else{
         return 0
     }

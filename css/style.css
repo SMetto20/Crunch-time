@@ -93,7 +93,7 @@ a {
     padding: 5px;
     margin-top: 200px;
     border-radius: 20px;
-    opacity:.85;
+    opacity: .85;
 }
 
 .magherita-text {
@@ -123,7 +123,7 @@ margin-top: 60px;
     margin-top: 100px;
     margin-left: 20px;
     ;
-    color:white;
+    color: white;
     font-weight: bold;
 
 }
@@ -154,10 +154,10 @@ margin-top: 60px;
     margin-top: 620px;
     margin-left: 970px;
     height: 50px;
-    width:80px;
+    width: 80px;
     border: none;
-    background:red;
-    color:white;
+    background: red;
+    color: white;
     border-radius: 7px;
     font-weight: bold;
 }
@@ -167,10 +167,10 @@ margin-top: 60px;
     margin-top: 500px;
     margin-left: 970px;
     height: 50px;
-    width:80px;
+    width: 80px;
     border: none;
-    background:green;
-    color:white;
+    background: green;
+    color: white;
     border-radius: 7px;
     font-weight: bold;
 
@@ -182,10 +182,10 @@ margin-top: 60px;
     margin-top: 550px;
     margin-left: 970px;
     height: 50px;
-    width:80px;
+    width: 80px;
     border: none;
-    background:yellow;
-    color:black;
+    background: yellow;
+    color: black;
     border-radius: 7px;
     font-weight: bold;
 
@@ -197,10 +197,10 @@ margin-top: 60px;
     margin-left: 970px;
     margin-bottom: 100px;
     height: 50px;
-    width:80px;
+    width: 80px;
     border: none;
-    background:purple;
-    color:white;
+    background: purple;
+    color: white;
     border-radius: 7px;
     font-weight: bold;
 
@@ -235,7 +235,7 @@ margin-top: 60px;
     position: absolute;
     margin-top: 400px;
     margin-left: 950px;
-    color:white;
+    color: white;
     font-weight: bold;
 }
 
@@ -246,7 +246,7 @@ margin-top: 60px;
     background-size: cover;
     height: 960px;
     opacity: .98;
-    margin-top:px;
+    margin-top: px;
 
 }
 
@@ -257,8 +257,8 @@ margin-top: 60px;
     background-size: cover;
     height: 1400px;
     opacity: 1;
-    
-    
+
+
 }
 
 .menu-2 {
@@ -368,7 +368,8 @@ margin-top: 60px;
     height: 30px;
     width: 90px;
 }
-.summary-1{
+
+.summary-1 {
     color: black;
     position: absolute;
     background-color: white;
@@ -380,7 +381,8 @@ margin-top: 60px;
     width: 500px;
     display: none;
 }
-.summary-2{
+
+.summary-2 {
     color: black;
     position: absolute;
     background-color: white;
@@ -392,102 +394,116 @@ margin-top: 60px;
     width: 500px;
     display: none;
 }
-.header{
+
+.header {
     background-color: green;
     height: 50px;
 }
-.order-header{
+
+.order-header {
     margin-left: 100px;
     color: white;
 }
-.continue{
+
+.continue {
     margin-top: 80px;
     margin-left: 20px;
     height: 40px;
-    width:80px;
+    width: 80px;
     background-color: green;
     color: white;
     border: none;
     border-radius: 7px;
     font-weight: bold;
 }
-.back{
+
+.back {
     margin-left: 150px;
-    height:40px;
-    width:80px;
+    height: 40px;
+    width: 80px;
     background-color: red;
     color: white;
     border: none;
     border-radius: 7px;
     font-weight: bold;
 }
-.continue-1{
 
-margin-top: 70px;
+.continue-1 {
+
+    margin-top: 70px;
     margin-left: 20px;
     height: 40px;
-    width:80px;
+    width: 80px;
     background-color: green;
     color: white;
     border: none;
     border-radius: 7px;
     font-weight: bold;
 }
-.back-1{
+
+.back-1 {
     margin-left: 170px;
-    height:40px;
-    width:80px;
+    height: 40px;
+    width: 80px;
     background-color: red;
     color: white;
     border: none;
     border-radius: 7px;
     font-weight: bold;
 }
-.summary-display{
+
+.summary-display {
     font-size: 22px;
     margin-left: 170px;
     margin-top: 30px;
     font-weight: bold;
 }
-.summary-display2{
+
+.summary-display2 {
     font-size: 22px;
     margin-left: 170px;
     margin-top: 30px;
     font-weight: bold;
     font-family: arial;
 }
-.delivery-heading{
-    position:absolute;
+
+.delivery-heading {
+    position: absolute;
     margin-top: 80px;
-    margin-left:500px;
+    margin-left: 500px;
 }
-.delivery-form{
-    position:absolute;
-    margin-top:280px ;
+
+.delivery-form {
+    position: absolute;
+    margin-top: 280px;
     margin-left: 550px;
 }
-.delivery-text{
+
+.delivery-text {
     font-size: 35px;
 }
-.delivery-select{
+
+.delivery-select {
     margin-left: 110px;
     height: 35px;
     width: 80px;
     background: none;
 }
 
-.location{
-    height:30px;
+.location {
+    height: 30px;
     background: none;
 }
-.enter-loc{
+
+.enter-loc {
     margin-left: 50px;
     margin-top: 150px;
-    
+
 }
-.cancel{
+
+.cancel {
     height: 40px;
-    width:80px;
+    width: 80px;
     border: none;
     background-color: red;
     color: white;
@@ -497,17 +513,18 @@ margin-top: 70px;
     margin-top: 40px;
 }
 
-.move-loc{
+.move-loc {
     margin-top: 100px;
 }
-.del-submit{
+
+.del-submit {
     margin-left: 180px;
     margin-top: 40px;
 }
 
-.cancel-2{
+.cancel-2 {
     height: 40px;
-    width:80px;
+    width: 80px;
     border: none;
     background-color: red;
     color: white;
@@ -517,10 +534,11 @@ margin-top: 70px;
     margin-top: 100px;
 
 }
-.thankyou{
+
+.thankyou {
     color: white;
     position: absolute;
-    margin-top:300px;
+    margin-top: 300px;
     margin-left: 600px;
     font-size: 30px;
 }
