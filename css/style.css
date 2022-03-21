@@ -164,7 +164,7 @@ margin-top: 60px;
 
 .order-hawai {
     position: absolute;
-    margin-top: 500px;
+    margin-top: 550px;
     margin-left: 970px;
     height: 50px;
     width: 80px;
@@ -179,7 +179,7 @@ margin-top: 60px;
 
 .order-nyama {
     position: absolute;
-    margin-top: 550px;
+    margin-top: 590px;
     margin-left: 970px;
     height: 50px;
     width: 80px;
@@ -193,7 +193,7 @@ margin-top: 60px;
 
 .order-veggie {
     position: absolute;
-    margin-top: 520px;
+    margin-top: 540px;
     margin-left: 970px;
     margin-bottom: 100px;
     height: 50px;
@@ -216,7 +216,7 @@ margin-top: 60px;
 
 .prices-hawai {
     position: absolute;
-    margin-top: 380px;
+    margin-top: 420px;
     margin-left: 950px;
     color: white;
     font-weight: bold;
@@ -225,7 +225,7 @@ margin-top: 60px;
 
 .prices-nyama {
     position: absolute;
-    margin-top: 430px;
+    margin-top: 480px;
     margin-left: 950px;
     color: white;
     font-weight: bold;
@@ -233,7 +233,7 @@ margin-top: 60px;
 
 .prices-veggie {
     position: absolute;
-    margin-top: 400px;
+    margin-top: 430px;
     margin-left: 950px;
     color: white;
     font-weight: bold;

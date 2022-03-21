@@ -31,6 +31,8 @@ var cancel = document.getElementById("cancel")
 var cancel2= document.getElementById("cancel2")
 var delivery = document.getElementById("delivery")
 var delivery2= document.getElementById("delivery2")
+var location1 = document.getElementById("location")
+var location2 = document.getElementById("location2")
 
 $(".order-marghe").click(function () {
     $(".form").show(function () {
@@ -126,7 +128,7 @@ $(".order-nyama").click(function () {
             sizePrice2()
             crustPrice2()
             toppingPrice2()
-            deliveryAnounce()
+            deliveryAnounce2()
             Total2()
             $(".summary-2").show(function (e) {
                 continue1.addEventListener("click", function (e) {
@@ -309,16 +311,19 @@ function deliveryCheck(){
         return 0
     }
 }
+
 function deliveryAnounce(){
     if(delivery.value==='yes'){
-    alert("your meal will be deliverd")
+
+    alert("your meal will be deliverd to"+' '+(location1.value))
 } else{
     alert ('wait 15 minutes to pick your meal')
 }}
+
 function deliveryAnounce2(){
     
     if(delivery2.value==='yes'){
-        alert("your meal will be deliverd")
+        alert("your meal will be deliverd to "+' '+(location2.value))
     } else{
         alert ('wait 15 minutes to pick your meal')
 }}
