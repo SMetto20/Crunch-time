@@ -1,4 +1,4 @@
-# Delani studio
+# Its crunch time
 By Sandra Metto
 ## Table of contents
 1. [Description](#Description)
@@ -37,7 +37,7 @@ project has no dependancies
 2. Installation process
 
 ### Website
-[Website]()
+[Website](https://SMetto20.github.io/Crunch-time/)
 ### License
 [MIT LICENSE](https://github.com/SMetto20/Crunch-time/blob/main/LICENSE)
 
