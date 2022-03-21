@@ -8,7 +8,6 @@ var crust = document.getElementById("crust")
 var toppings = document.getElementById("toppings")
 var form = document.getElementById("form")
 var quantity = document.getElementById("quantity")
-var delivery = document.getElementById("delivery")
 var margherita = document.getElementById("margherita")
 var hawaian = document.getElementById("hawaian")
 var nyamachoma = document.getElementById("nyamachoma")
@@ -25,10 +24,19 @@ var toppings2 = document.getElementById("toppings2")
 var quantity2 = document.getElementById("quantity2")
 var continue1 = document.getElementById("continue1")
 var back1 = document.getElementById("back1")
+var continue2 = document.getElementById("continue2")
+var back = document.getElementById("back")
 var summary2 = document.getElementById("summary-2")
+var cancel = document.getElementById("cancel")
+var cancel2= document.getElementById("cancel2")
+var delivery = document.getElementById("delivery")
+var delivery2= document.getElementById("delivery2")
 
 $(".order-marghe").click(function () {
     $(".form").show(function () {
+        $(".order-marghe").hide()
+        $(".magherita-text").css('filter', filterval)
+        $(".magherita-image").css('filter', filterval)
         form.addEventListener("submit", function (e) {
             e.preventDefault();
 
@@ -36,37 +44,80 @@ $(".order-marghe").click(function () {
             crustPrice()
             toppingPrice()
             Total()
-            $(".summary-1").show()
+            $(".summary-1").show(function(e){
+                continue2.addEventListener("click", function (e) {
+                    e.preventDefault();
+                    document.location.href ="delivery.html"
+                    
+                })
+                back.addEventListener("click", function (e) {
+                    e.preventDefault();
+                    $(".summary-1").hide();
+                    $(".form").show()
+
+                })
+
+            })
             $(".form").hide()
+        })
+        cancel.addEventListener("click", function (e) {
+            $(".form").hide()
+            $(".order-marghe").show()
+            $(".magherita-text").css('filter', filterval2)
+            $(".magherita-image").css('filter', filterval2)
         })
     })
 
-    $(".order-marghe").hide()
-    $(".magherita-text").css('filter', filterval)
-    $(".magherita-image").css('filter', filterval)
+
 
 
 })
 $(".order-hawai").click(function () {
     $(".form").show(function () {
+        $(".order-marghe").hide()
+        $(".magherita-text").css('filter', filterval)
+        $(".magherita-image").css('filter', filterval)
         form.addEventListener("submit", function (e) {
             e.preventDefault();
 
             sizePrice()
             crustPrice()
+            toppingPrice()
             Total()
-            $(".summary-1").show()
+            $(".summary-1").show(function(e){
+                continue2.addEventListener("click", function (e) {
+                    e.preventDefault();
+                    document.location.href ="delivery.html"
+                    
+                })
+                back.addEventListener("click", function (e) {
+                    e.preventDefault();
+                    $(".summary-1").hide();
+                    $(".form").show()
+
+                })
+
+            })
             $(".form").hide()
         })
+        cancel.addEventListener("click", function (e) {
+            $(".form").hide()
+            $(".order-marghe").show()
+            $(".magherita-text").css('filter', filterval2)
+            $(".magherita-image").css('filter', filterval2)
+        })
     })
 
-    $(".order-marghe").hide()
-    $(".magherita-text").css('filter', filterval)
-    $(".magherita-image").css('filter', filterval)
+
+
 
 })
+
 $(".order-nyama").click(function () {
     $(".form-2").show(function () {
+        $(".order-nyama").hide()
+    $(".nyamachoma-text").css('filter', filterval)
+    $(".nyamachoma-image").css('filter', filterval)
         form2.addEventListener("submit", function (e) {
             e.preventDefault();
 
@@ -74,65 +125,93 @@ $(".order-nyama").click(function () {
             crustPrice2()
             toppingPrice2()
             Total2()
-            $(".summary-2").show(function(e){
-                continue1.addEventListener("click",function(e){
+            $(".summary-2").show(function (e) {
+                continue1.addEventListener("click", function (e) {
                     e.preventDefault();
-                    alert("almost there")
+                    document.location.href ="delivery.html"
+                })
+                back1.addEventListener("click", function (e) {
+                    e.preventDefault();
+                    $(".summary-2").show(function(e){
+                        continue2.addEventListener("click", function (e) {
+                            e.preventDefault();
+                            document.location.href ="delivery.html"
+                            
+                        })
+                        back.addEventListener("click", function (e) {
+                            e.preventDefault();
+                            $(".summary-2").hide();
+                            $(".form-2").show()
+        
+                        })
+        
                     })
-                    back1.addEventListener("click",function(e){
-                        e.preventDefault();
-                        $(".summary-2").hide();
-                        $(".form-2").show()
+                    $(".form-2").show()
 
-                    })
+                })
             })
             
             $(".form-2").hide()
 
         })
+        cancel2.addEventListener("click", function (e) {
+            $(".form-2").hide()
+            $(".order-nyama").show()
+            $(".nyamachoma-text").css('filter', filterval2)
+            $(".nyamachoma-image").css('filter', filterval2)
+    
+        })
+
+        })
+        
+        
     })
-
-    $(".order-nyama").hide()
-    $(".nyamachoma-text").css('filter', filterval)
-    $(".nyamachoma-image").css('filter', filterval)
-
-
-})
-$(".order-veggie").click(function () {
-    $(".form-2").show(function () {
-        form2.addEventListener("submit", function (e) {
-            e.preventDefault();
-
-            sizePrice2()
-            crustPrice2()
-            toppingPrice2()
-            Total2()
-            $(".summary-2").show(function(e){
-                continue1.addEventListener("click",function(e){
-                    e.preventDefault();
-                    alert("almost there")
+    $(".order-veggie").click(function () {
+        $(".form-2").show(function () {
+            $(".order-nyama").hide()
+        $(".nyamachoma-text").css('filter', filterval)
+        $(".nyamachoma-image").css('filter', filterval)
+            form2.addEventListener("submit", function (e) {
+                e.preventDefault();
+    
+                sizePrice2()
+                crustPrice2()
+                toppingPrice2()
+                Total2()
+                $(".summary-2").show(function(e){
+                    continue2.addEventListener("click", function (e) {
+                        e.preventDefault();
+                        document.location.href ="delivery.html"
+                        
                     })
-                    back1.addEventListener("click",function(e){
+                    back1.addEventListener("click", function (e) {
                         e.preventDefault();
                         $(".summary-2").hide();
                         $(".form-2").show()
-
+    
                     })
+                })
+                
+                $(".form-2").hide()
+    
+            })
+            cancel2.addEventListener("click", function (e) {
+                $(".form-2").hide()
+                $(".order-nyama").show()
+                $(".nyamachoma-text").css('filter', filterval2)
+                $(".nyamachoma-image").css('filter', filterval2)
+            })
+    
             })
             
-            $(".form-2").hide()
-
-        })
-    })
-
-    $(".order-nyama").hide()
-    $(".nyamachoma-text").css('filter', filterval)
-    $(".nyamachoma-image").css('filter', filterval)
-
-
-})
+            
+        }) 
 
     
+
+
+
+
 
 
 let amount = {
@@ -156,6 +235,7 @@ let pizza = {
     crust: ['thick', 'thin', 'glutten'],
     topping: ['Extratopping', 'Morderate', 'Minimal']
 }
+var deliveryPrice = 350
 
 function sizePrice() {
     if (size.value === pizza.size[0]) {
@@ -216,15 +296,33 @@ function toppingPrice2() {
         return parseInt(theToppings.Minimal)
     }
 }
+function deliveryCheck(){
+    if(delivery.value==='yes'){
+     return parseInt (deliveryPrice)+
+     alert("your meal will be delivered")
+
+    }else{
+        return 0
+    }
+}
+function deliveryCheck2(){
+    if(delivery2.value=== "yes"){
+   return parseInt(deliveryPrice)+
+   alert("your meal will be deliverd")
+    }else{
+        return 0
+    }
+}
 
 function Total() {
 
-    document.getElementById("summary-display").innerHTML = "</br>" + "</br>" + 'Pizza price' + ' ' + (sizePrice() * parseInt(quantity.value)) + "</br>" + 'Quantity' + '  ' + (quantity.value) + "</br>" + 'Crust price' + ' ' + (crustPrice() * parseInt(quantity.value)) + "</br>" + 'Topping price' + ' ' + (toppingPrice() * parseInt(quantity.value)) + "</br>" + "</br>" + 'total' + ' ' + ((sizePrice() + crustPrice() + toppingPrice()) * parseInt(quantity.value))
-
+    document.getElementById("summary-display").innerHTML = "</br>" + "</br>" + 'Pizza price' + ' ' + (sizePrice() * parseInt(quantity.value)) + "</br>" + 'Quantity' + '  ' + (quantity.value) + "</br>" + 'Crust price' + ' ' + (crustPrice() * parseInt(quantity.value)) + "</br>" + 'Topping price' + ' ' + (toppingPrice() * parseInt(quantity.value)) + "</br>" +'Delivery price'+ ' '+(deliveryCheck())+"</br>"+'total' + ' ' + ((sizePrice() + crustPrice() + toppingPrice()) * parseInt(quantity.value)+ deliveryCheck())
+    
 }
 
 function Total2() {
 
-    document.getElementById("summary-display2").innerHTML = "</br>" + "</br>" + 'Pizza price' + ' ' + (sizePrice2() * parseInt(quantity2.value)) + "</br>" + 'Quantity' + '  ' + (quantity2.value) + "</br>" + 'Crust price' + ' ' + (crustPrice2() * parseInt(quantity2.value)) + "</br>" + 'Topping price' + ' ' + (toppingPrice2() * parseInt(quantity2.value)) + "</br>" + "</br>" + 'total' + ' ' + ((sizePrice2() + crustPrice2() + toppingPrice2()) * parseInt(quantity2.value))
+    document.getElementById("summary-display2").innerHTML = "</br>" + "</br>" + 'Pizza price' + ' ' + (sizePrice2() * parseInt(quantity2.value)) + "</br>" + 'Quantity' + '  ' + (quantity2.value) + "</br>" + 'Crust price' + ' ' + (crustPrice2() * parseInt(quantity2.value)) + "</br>" + 'Topping price' + ' ' + (toppingPrice2() * parseInt(quantity2.value)) + "</br>" +'Delivery price'+' '+(deliveryCheck2())+"</br>" + 'total' + ' ' + ((sizePrice2() + crustPrice2() + toppingPrice2()) * parseInt(quantity2.value)+ deliveryCheck2())
 
 }
+

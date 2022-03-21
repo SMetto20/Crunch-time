@@ -16,7 +16,6 @@
             <a link href="index.html">HOME</a>&nbsp;&nbsp;&nbsp;
             <a link href="menu.html">MENU</a>&nbsp;&nbsp;&nbsp;
             <a link href="delivery.html">DELIVERY</a>&nbsp;&nbsp;&nbsp;
-            <a link href="#">FEEDBACK</a>
         </div>
         <h2 class="crunch">Crunch Time</h2>
     </div>
@@ -31,13 +30,13 @@
                 extra,</br></br> thin crust is 250ksh extra and gluten free crust is 450ksh extra.</br></br> futher more
                 you can incrase your delight by adding toppings that go for,</br></br>300 ksh for a large pizza, 200ksh
                 for medium and 100ksh for small.</p>
-                <form id="form" class="form">
+            <form id="form" class="form">
                 <h1 class="place">place your oder</h1>
                 <div class="choose-size">
                     <div class="form-1">
                         <label>choose your size</label>
                         <select id="size" class="size-select" required>
-                            <option disabled hidden selected >size</option>
+                            <option disabled hidden selected>size</option>
                             <option value="large">large</option>
                             <option value="medium">Medium</option>
                             <option value="small">small</option>
@@ -55,25 +54,33 @@
                         <option value="glutten">glutten free</option>
                     </select></br>
                     <label class="toppings">Which toppings would you like?</label>
-                    <select id ="toppings" class="toppings-select">
+                    <select id="toppings" class="toppings-select">
                         <option disabled hidden selected>Toppings</option>
                         <option value="Extratopping">Extra toppings</option>
                         <option value="Morderate">Moderate</option>
                         <option value="Minimal">Minimal</option>
                     </select></br></br>
+                    <label class="delivery1">Delivery</label>
+                    <select id="delivery">
+                        <option value="yes">yes</option>
+                        <option value="no">no</option>
+                    </select></br></br>
+                    <label>enter location</label>
+                    <input class="location" required /></br>
+                    <button id="cancel" type="submit" class="cancel">Cancel</button>
                     <button id="submit" type="submit" class="proceed">Proceed</button>
                 </div>
             </form>
             <div class="summary-1" id="summary-1">
                 <div class="header">
-                <h1 class="order-header">Order Summary</h1>
+                    <h1 class="order-header">Order Summary</h1>
                 </div>
                 <div id="summary-display" class="summary-display">
 
                 </div>
-                <button class="back">back</button>
-                <button class="continue">Continue</button>
-                
+                <button class="back" id="back">back</button>
+                <button class="continue" id="continue2">Continue</button>
+
             </div>
             <ul class="prices-marghe">
 
@@ -114,50 +121,60 @@
                 goes for 350ksh extra,</br></br> thin crust is 250ksh extra and gluten free crust is 450ksh
                 extra.</br></br> futher more you can incrase your delight by adding toppings that go for,</br></br>300
                 ksh for a large pizza, 200ksh for medium and 100ksh for small.</p>
-                <form id="form2" class="form-2">
-                    <h1 class="place">place your oder</h1>
-                    <div class="choose-size">
-                        <div class="form-1">
-                            <label>choose your size</label>
-                            <select id="size2" class="size-select" required>
-                                <option disabled hidden selected >size</option>
-                                <option value="large">large</option>
-                                <option value="medium">Medium</option>
-                                <option value="small">small</option>
-                            </select></br>
-                        </div>
-                        <div class="quantity">
-                            <label>quantity</label>
-                            <input id="quantity2" class="quantity-select" required></input></br>
-                        </div>
-                        <label>Select your crust type</label>
-                        <select id="crust2" class="crust crust-select">
-                            <option disabled hidden selected>crust</option>
-                            <option value="thick">thick</option>
-                            <option value="thin">thin</option>
-                            <option value="glutten">glutten free</option>
+            <form id="form2" class="form-2">
+                <h1 class="place">place your oder</h1>
+                <div class="choose-size">
+                    <div class="form-1">
+                        <label>choose your size</label>
+                        <select id="size2" class="size-select" required>
+                            <option disabled hidden selected>size</option>
+                            <option value="large">large</option>
+                            <option value="medium">Medium</option>
+                            <option value="small">small</option>
                         </select></br>
-                        <label class="toppings">Which toppings would you like?</label>
-                        <select id ="toppings2" class="toppings-select">
-                            <option disabled hidden selected>Toppings</option>
-                            <option value="Extratopping">Extra toppings</option>
-                            <option value="Morderate">Moderate</option>
-                            <option value="Minimal">Minimal</option>
-                        </select></br></br>
-                        <button id="proceed" type="submit" class="proceed">Proceed</button>
                     </div>
-                </form>
-                <div class="summary-2" id="summary-2">
-                    <div class="header">
-                    <h1 class="order-header">Order Summary</h1>
+                    <div class="quantity">
+                        <label>quantity</label>
+                        <input id="quantity2" class="quantity-select" required></input></br>
                     </div>
-                    <div class="summary-display2" id="summary-display2">
-
-                    </div>
-                    <button class="back-1" id="back1">back</button>
-                    <button class="continue-1" id="continue1" type="submit">Continue</button>
-                    
+                    <label>Select your crust type</label>
+                    <select id="crust2" class="crust crust-select">
+                        <option disabled hidden selected>crust</option>
+                        <option value="thick">thick</option>
+                        <option value="thin">thin</option>
+                        <option value="glutten">glutten free</option>
+                    </select></br>
+                    <label class="toppings">Which toppings would you like?</label>
+                    <select id="toppings2" class="toppings-select">
+                        <option disabled hidden selected>Toppings</option>
+                        <option value="Extratopping">Extra toppings</option>
+                        <option value="Morderate">Moderate</option>
+                        <option value="Minimal">Minimal</option>
+                    </select></br></br>
+                    <label class="delivery1">Delivery</label>
+                    <select id="delivery2">
+                        <option value="yes">yes</option>
+                        <option value="no">no</option>
+                    </select></br></br>
+                    <label>enter location</label>
+                    <input class="location" required /></br>
+                    <button id="cancel2" type="submit" class="cancel-2">Cancel</button>
+                    <button id="proceed2" type="submit" class="proceed">Proceed</button>
                 </div>
+            </form>
+            <div class="summary-2" id="summary-2">
+                <div class="header">
+                    <h1 class="order-header">Order Summary</h1>
+                </div>
+                <div class="summary-display2" id="summary-display2">
+
+                </div>
+                <button class="back-1" id="back1">back</button>
+                <a href="delivery.html">
+                    <button class="continue-1" id="continue1" type="submit">Continue</button>
+                </a>
+
+            </div>
             <ul class="prices-nyama">
                 <li>large @ 950ksh</li></br>
                 <li>medium@ 700ksh</li></br>
@@ -188,7 +205,7 @@
             </div>
         </div>
         <script src="https://code.jquery.com/jquery-3.6.0.js"
-        integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+            integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
         <script src="js/main.js"></script>
 </body>
 

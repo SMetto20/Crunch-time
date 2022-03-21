@@ -151,14 +151,28 @@ margin-top: 60px;
 
 .order-marghe {
     position: absolute;
-    margin-top: 650px;
+    margin-top: 620px;
     margin-left: 970px;
+    height: 50px;
+    width:80px;
+    border: none;
+    background:red;
+    color:white;
+    border-radius: 7px;
+    font-weight: bold;
 }
 
 .order-hawai {
     position: absolute;
     margin-top: 500px;
     margin-left: 970px;
+    height: 50px;
+    width:80px;
+    border: none;
+    background:green;
+    color:white;
+    border-radius: 7px;
+    font-weight: bold;
 
 
 }
@@ -167,6 +181,13 @@ margin-top: 60px;
     position: absolute;
     margin-top: 550px;
     margin-left: 970px;
+    height: 50px;
+    width:80px;
+    border: none;
+    background:yellow;
+    color:black;
+    border-radius: 7px;
+    font-weight: bold;
 
 }
 
@@ -175,6 +196,13 @@ margin-top: 60px;
     margin-top: 520px;
     margin-left: 970px;
     margin-bottom: 100px;
+    height: 50px;
+    width:80px;
+    border: none;
+    background:purple;
+    color:white;
+    border-radius: 7px;
+    font-weight: bold;
 
 }
 
@@ -212,13 +240,13 @@ margin-top: 60px;
 }
 
 .delivery {
-    background-image: url(../images/delivery.png);
+    background-image: url(../images/pizza\ 2.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     height: 960px;
     opacity: .98;
-    margin-top: 10px;
+    margin-top:px;
 
 }
 
@@ -265,7 +293,7 @@ margin-top: 60px;
     position: absolute;
     margin-top: 180px;
     margin-left: 550px;
-    height: 430px;
+    height: 600px;
     width: 500px;
     opacity: 0.95;
     display: none;
@@ -277,8 +305,8 @@ margin-top: 60px;
     background-color: rgb(253, 252, 252);
     position: absolute;
     margin-top: 350px;
-    margin-left: 550px;
-    height: 430px;
+    margin-left: 650px;
+    height: 600px;
     width: 500px;
     opacity: 0.95;
     display: none;
@@ -312,7 +340,7 @@ margin-top: 60px;
 }
 
 .proceed {
-    margin-left: 200px;
+    margin-left: 20px;
     margin-top: 20px;
     height: 40px;
     width: 90px;
@@ -447,15 +475,52 @@ margin-top: 70px;
     width: 80px;
     background: none;
 }
-.checkout{
-    position: absolute;
-    margin-top: 80px;
-    margin-left: 180px;
-}
+
 .location{
     height:30px;
     background: none;
 }
 .enter-loc{
     margin-left: 50px;
+    margin-top: 150px;
+    
+}
+.cancel{
+    height: 40px;
+    width:80px;
+    border: none;
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    border-radius: 8px;
+    margin-left: 100px;
+    margin-top: 40px;
+}
+
+.move-loc{
+    margin-top: 100px;
+}
+.del-submit{
+    margin-left: 180px;
+    margin-top: 40px;
+}
+
+.cancel-2{
+    height: 40px;
+    width:80px;
+    border: none;
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    border-radius: 8px;
+    margin-left: 100px;
+    margin-top: 100px;
+
+}
+.thankyou{
+    color: white;
+    position: absolute;
+    margin-top:300px;
+    margin-left: 600px;
+    font-size: 30px;
 }
